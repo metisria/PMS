@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Unis.XamlConfiguration.Graphics</name>
+    </assembly>
+    <members>
+        <member name="M:Unis.XamlConfiguration.GraphicSamples.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Drawing.数据文本">
+            <summary>
+                数据文本
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Drawing.数据文本.#ctor">
+            <summary>
+                MXTextBlock
+            </summary>
+        </member>
+    </members>
+</doc>

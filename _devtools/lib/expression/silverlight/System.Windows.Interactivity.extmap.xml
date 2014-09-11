@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+
+<manifest>
+  <assembly>
+    <name>
+      System.Windows.Interactivity
+    </name>
+    <version>3.0.40218.0</version>
+    <publickeytoken>31bf3856ad364e35</publickeytoken>
+    <relpath>
+      System.Windows.Interactivity.dll
+    </relpath>
+    <extension downloadUri="System.Windows.Interactivity.zip" />
+  </assembly>
+</manifest>

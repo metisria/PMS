@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+
+<manifest>
+  <assembly>
+    <name>
+      Unis.XamlConfiguration.Analyze
+    </name>
+    <version>6.14.3.16</version>
+    <publickeytoken>8c80e41dedf48ba9</publickeytoken>
+    <relpath>
+      Unis.XamlConfiguration.Analyzeg.dll
+    </relpath>
+    <extension downloadUri="Unis.XamlConfiguration.Analyze.zip" />
+  </assembly>
+</manifest>

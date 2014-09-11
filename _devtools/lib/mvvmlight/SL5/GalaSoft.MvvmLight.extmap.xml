@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <assembly>
+    <name>
+     GalaSoft.MvvmLight
+    </name>
+    <version>4.4.32.39769</version>
+    <publickeytoken>c114982fcf1a3a2e</publickeytoken>
+    <relpath>
+     GalaSoft.MvvmLight.dll
+    </relpath>
+    <extension downloadUri="GalaSoft.MvvmLight.zip" />
+  </assembly>
+</manifest>

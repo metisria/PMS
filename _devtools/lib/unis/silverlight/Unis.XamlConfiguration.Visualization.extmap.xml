@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+
+<manifest>
+  <assembly>
+    <name>
+      Unis.XamlConfiguration.Visualization
+    </name>
+    <version>6.14.3.16</version>
+    <publickeytoken>8c80e41dedf48ba9</publickeytoken>
+    <relpath>
+      Unis.XamlConfiguration.Visualization.dll
+    </relpath>
+    <extension downloadUri="Unis.XamlConfiguration.Visualization.zip" />
+  </assembly>
+</manifest>

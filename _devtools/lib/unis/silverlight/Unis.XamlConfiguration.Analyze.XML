@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Unis.XamlConfiguration.Analyze</name>
+    </assembly>
+    <members>
+        <member name="T:Unis.XamlConfiguration.JsonSerializer">
+            <summary>
+                JsonSerializer
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.JsonSerializer.Serialize``1(``0)">
+            <summary>
+                从 <see cref="!:T"/> 类型实体数据获取 json 格式字符串
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.JsonSerializer.Unserialize``1(System.String)">
+            <summary>
+                从 json 格式字符串获取 <see cref="!:T"/> 类型实体数据
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Data.PointInfo">
+            <summary>
+                测点静态属性信息
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.PointInfo.NameProperty">
+            <summary>
+                NameProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.PointInfo.UnitProperty">
+            <summary>
+                UnitProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.PointInfo.DescriptorProperty">
+            <summary>
+                DescriptorProperty
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.PointInfo.Name">
+            <summary>
+               获取或设置测点名称
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.PointInfo.Unit">
+            <summary>
+                获取或设置测点数据单位
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.PointInfo.Descriptor">
+            <summary>
+                获取或设置测点描述信息
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Confusion.Security">
+            <summary>
+                Provide the encrypt and decrypt functions
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Confusion.Security.BytesToString(System.Byte[])">
+            <summary>
+                BytesToString
+            </summary>
+            <param name="buffer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Confusion.Security.StringToBytes(System.String)">
+            <summary>
+                StringToBytes
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Confusion.Security.Encrypt(System.String)">
+            <summary>
+                Encrypt the plain text.
+            </summary>
+            <param name="plainText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Confusion.Security.Decrypt(System.Byte[])">
+            <summary>
+                Decrypt the cipher text.
+            </summary>
+            <param name="cipher"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Analytics.XamlAnalyzer">
+            <summary>
+                XAML 分析类，负责元素对象创建、解析元素内部结构以获取动态元素、另外提供以数据驱动图形更新方法。
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Analytics.XamlAnalyzer.AssociatedControlsProperty">
+            <summary>
+                Attached a property named AssociatedControls for the XamlAnalyzer class
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Analytics.XamlAnalyzer.AssociatedPointsProperty">
+            <summary>
+                Attached a property named AssociatedPoints for the XamlAnalyzer class
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.SetAssociatedControls(System.Windows.FrameworkElement,System.Collections.Generic.List{Unis.XamlConfiguration.Drawing.MXControl})">
+            <summary>
+                Get the value from  AssociatedControls of the XamlAnalyzer instance
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.GetAssociatedControls(System.Windows.FrameworkElement)">
+            <summary>
+                Set a value for AssociatedControls of the XamlAnalyzer instance
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.SetAssociatedPoints(System.Windows.FrameworkElement,System.Collections.Generic.List{Unis.XamlConfiguration.Data.PointInfo})">
+            <summary>
+                Get the value from  AssociatedPoints of the XamlAnalyzer instance
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.GetAssociatedPoints(System.Windows.FrameworkElement)">
+            <summary>
+                Set a value for AssociatedPoints of the XamlAnalyzer instance
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.LoadXaml(System.IO.Stream,System.Collections.Generic.List{Unis.XamlConfiguration.Drawing.MXControl}@,System.Collections.Generic.List{System.Windows.Controls.Control}@)">
+            <summary>
+                加载 XAML 页面数据流，并输出 <see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/> 控件集合
+            </summary>
+            <param name="stream">XAML 页面数据流</param>
+            <param name="drawings">out 参数，<see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/></param>
+            <param name="vizControls">
+                <see cref="T:Telerik.Windows.Controls.ChartView.RadChartBase"/> or <see cref="T:Telerik.Windows.Controls.Gauge.GaugeBase"/>
+            </param>
+            <returns>返回 XAML 页面数据流生成的 <see cref="T:System.Windows.FrameworkElement"/> 对象</returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.LoadXaml(System.String,System.Collections.Generic.List{Unis.XamlConfiguration.Drawing.MXControl}@,System.Collections.Generic.List{System.Windows.Controls.Control}@)">
+            <summary>
+                加载 XAML 页面文件，并输出 <see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/> 控件集合
+            </summary>
+            <param name="xaml">XAML 页面文件内容</param>
+            <param name="drawings">out 参数，<see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/></param>
+            <param name="vizControls">
+                <see cref="T:Telerik.Windows.Controls.ChartView.RadChartBase"/> or <see cref="T:Telerik.Windows.Controls.Gauge.GaugeBase"/>
+            </param>
+            <returns>返回 XAML 页面文件生成的 <see cref="T:System.Windows.FrameworkElement"/> 对象</returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.LoadXaml(System.Byte[],System.Collections.Generic.List{Unis.XamlConfiguration.Drawing.MXControl}@,System.Collections.Generic.List{System.Windows.Controls.Control}@)">
+            <summary>
+                加载 XAML 页面文件字节码，并输出 <see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/> 控件集合
+            </summary>
+            <param name="bytes">XAML 页面字节码数组</param>
+            <param name="drawings">out 参数，<see cref="T:Unis.XamlConfiguration.Drawing.MXControl"/></param>
+            <param name="vizControls">
+                <see cref="T:Telerik.Windows.Controls.ChartView.RadChartBase"/> or <see cref="T:Telerik.Windows.Controls.Gauge.GaugeBase"/>
+            </param>
+            <returns>返回 XAML 页面文件生成的 <see cref="T:System.Windows.FrameworkElement"/> 对象</returns>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.UpdateDrawing(System.Windows.FrameworkElement,System.Collections.Generic.List{System.Object},System.Action{Unis.XamlConfiguration.Analytics.ExceptionCollection})">
+            <summary>
+                更新画面图元显示，包括文本数值和图形变化。
+            </summary>
+            <param name="ui">有 XAML 页面生成的<see cref="T:System.Windows.FrameworkElement"/>对象</param>
+            <param name="values">页面数据集，文本数据或数值数据</param>
+            <param name="onUpdated"></param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Analytics.XamlAnalyzer.UpdateTooltip(System.Windows.FrameworkElement,System.Collections.Generic.List{Unis.XamlConfiguration.Data.PointInfo})">
+            <summary>
+                更新画面图元信息提示
+            </summary>
+            <param name="ui">画面对象实例</param>
+            <param name="values">画面相关测点信息集合</param>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Analytics.ExceptionCollection">
+            <summary>
+            ExceptionCollection
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Analytics.ExceptionCollection.HasError">
+            <summary>
+            获取一个布尔值，表明当是否有异常
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.HttpResult">
+            <summary>
+            HTTP请求结果
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.HttpResult.UserState">
+            <summary>
+            获取用户定义状态对象
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.HttpResult.JsonResult">
+            <summary>
+            获取JSON结果数据
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.HttpResult.Error">
+            <summary>
+            获取请求过程出现的异常错误
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.HttpResult.HasError">
+            <summary>
+            获取一个布尔值，以表明是否有异常错误
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Restful">
+            <summary>
+                支持 RESTful 风格的资源请求，即 HTTP 谓词 GET、POST、PUT、DELETE。
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Get(System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)">
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Post(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)">
+            <summary>
+               HttpClient [POST] 请求远程资源数据，参数可通过 Body 传递且无长度限制
+            </summary>
+            <param name="uri">请求URI地址</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="data">通过 HTTP Body 传递数据内容，JSON 格式数据</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Put(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)">
+            <summary>
+              HttpClient [PUT] 请求远程资源数据，参数可通过 Body 传递且无长度限制
+            </summary>
+            <param name="uri">请求URI地址</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="data">通过 HTTP Body 传递数据内容，JSON 格式数据</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Delete(System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)">
+            <summary>
+              HttpClient [DELETE] 请求远程资源数据
+            </summary>
+            <param name="uri">请求URI地址</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Upload(System.String,System.Byte[],System.Action,System.Action{System.Exception},System.Object)">
+            <summary>
+                WebClient [POST] 上传资源，该方式不能获取服务端状态信息，要获取服务端处理信息，请使用 <see cref="M:Unis.XamlConfiguration.Restful.Post(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)"/> 或 <see cref="M:Unis.XamlConfiguration.Restful.Put(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)"/> 方法
+            </summary>
+            <param name="uri">上传地址</param>
+            <param name="data">资源字节数组</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="onError">异常错误处理</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Upload(System.String,System.IO.Stream,System.Action,System.Action{System.Exception},System.Object)">
+            <summary>
+                 WebClient [POST] 上传资源，写入后会自动关闭流对象，该方式不能获取服务端状态信息，要获取服务端处理信息，请使用 <see cref="M:Unis.XamlConfiguration.Restful.Post(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)"/> 或 <see cref="M:Unis.XamlConfiguration.Restful.Put(System.String,System.String,System.Action{Unis.XamlConfiguration.HttpResult},System.Object)"/> 方法
+            </summary>
+            <param name="uri">上传地址</param>
+            <param name="stream">资源流</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="onError">异常错误处理</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Download(System.String,System.Action{System.Byte[]},System.Action{System.Exception},System.Object)">
+            <summary>
+               WebClient [GET] 下载资源
+            </summary>
+            <param name="uri">上传地址</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="onError">异常错误处理</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Restful.Download(System.String,System.Action{System.IO.Stream},System.Action{System.Exception},System.Object)">
+            <summary>
+                WebClient [GET]下载资源
+            </summary>
+            <param name="uri">资源地址</param>
+            <param name="onCallback">服务端响应请求后客户端回调函数</param>
+            <param name="onError">异常错误处理</param>
+            <param name="state">An object containing state information for this asynchronous request.</param>
+        </member>
+    </members>
+</doc>

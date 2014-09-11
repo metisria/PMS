@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Unis.XamlConfiguration.Visualization</name>
+    </assembly>
+    <members>
+        <member name="T:Unis.XamlConfiguration.Visualization.MXChart">
+            <summary>
+            MXChart
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Visualization.MXChart.IsLivingProperty">
+            <summary>
+                IsLivingProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Visualization.MXChart.IsMultiScaleProperty">
+            <summary>
+                IsMultiScaleProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Visualization.MXChart.ShowLegendsProperty">
+            <summary>
+                ShowLegendsProperty
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Visualization.MXChart.#ctor">
+            <summary>
+            MXChart
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Visualization.MXChart.IsLiving">
+            <summary>
+                Get or Set IsLiving
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Visualization.MXChart.IsMultiScale">
+            <summary>
+                Get or Set IsMultiScale
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Visualization.MXChart.ShowLegends">
+            <summary>
+                Get or Set ShowLegends
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+
+<manifest>
+  <assembly>
+    <name>
+      Microsoft.Expression.Interactions
+    </name>
+    <version>3.0.40218.0</version>
+    <publickeytoken>31bf3856ad364e35</publickeytoken>
+    <relpath>
+      Microsoft.Expression.Interactions.dll
+    </relpath>
+    <extension downloadUri="Microsoft.Expression.Interactions.zip" />
+  </assembly>
+</manifest>

@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Unis.XamlConfiguration.Drawing</name>
+    </assembly>
+    <members>
+        <member name="T:Unis.XamlConfiguration.Extensions">
+            <summary>
+                
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Extensions.IsInDesign(System.Windows.DependencyObject)">
+            <summary>
+                Gets a value that indicates whether the element is running in the context of a designer.
+            </summary>
+            <returns>
+                true if the element is running in the context of a designer; otherwise, false.
+            </returns>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Data.MenuInfo">
+            <summary>
+                菜单信息
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.MenuInfo.HeaderProperty">
+            <summary>
+                HeaderProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.MenuInfo.TargetUriProperty">
+            <summary>
+                TargetUriProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.MenuInfo.TargetProperty">
+            <summary>
+                TargetProperty
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.MenuInfo.Header">
+            <summary>
+                Get or Set Header
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.MenuInfo.TargetUri">
+            <summary>
+                Get or Set TargetUri
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Data.MenuInfo.Target">
+            <summary>
+                Get or Set Target
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Data.TargetType">
+            <summary>
+            目标类型，即菜单选项的目的类型
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.TargetType.Undefined">
+            <summary>
+            未定义的，由终端程序自行处理
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.TargetType.Blank">
+            <summary>
+            使用新窗口打开目标地址
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Data.TargetType.Self">
+            <summary>
+            容器内部导航，即使用作模块页面导航
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Data.MenuCollection">
+            <summary>
+                菜单集合类
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Drawing.MXBlock">
+            <summary>
+                定义测点数据标签基类
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Drawing.MXControl">
+            <summary>
+                组态图元基类，定义通用属性
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Drawing.MXControl.#ctor">
+            <summary>
+            MXControl
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXControl.AssociatedPointsProperty">
+            <summary>
+                AssociatedPointsProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXControl.MenusProperty">
+            <summary>
+                MenusProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXControl.BehaviorsProperty">
+            <summary>
+                BehaviorsProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXControl.TextProperty">
+            <summary>
+                TextProperty
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXControl.IsInDesign">
+            <summary>
+                Gets a value that indicates whether the element is running in the context of a designer.
+            </summary>
+            <returns>
+                true if the element is running in the context of a designer; otherwise, false.
+            </returns>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXControl.Text">
+            <summary>
+                获取或设置文本显示信息
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXControl.AssociatedPoints">
+            <summary>
+                获取或设置关联测点，使用分号';'分隔不同测点，测点属性信息在 Tooltip 中显示。
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXControl.Menus">
+            <summary>
+                获取或设置导航菜单集合
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXControl.Behaviors">
+            <summary>
+                获取或设置多态配置集合
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.PrefixProperty">
+            <summary>
+                PrefixProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.SuffixProperty">
+            <summary>
+                SuffixProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.ValueMarginProperty">
+            <summary>
+                ValueMarginProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.StringFormatProperty">
+            <summary>
+                StringFormatProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.ValueProperty">
+            <summary>
+                ValueProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.SuffixForegroundProperty">
+            <summary>
+                SuffixForegroundProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.PrefixForegroundProperty">
+            <summary>
+                PrefixForegroundProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Drawing.MXBlock.SnippetProperty">
+            <summary>
+                SnippetProperty
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Drawing.MXBlock.#ctor">
+            <summary>
+                MXBlock
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.SuffixForeground">
+            <summary>
+                Get or Set SuffixForeground
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.PrefixForeground">
+            <summary>
+                Get or Set PrefixForeground
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.Snippet">
+            <summary>
+                Get or Set Snippet
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.Prefix">
+            <summary>
+                Get or Set Prefix
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.Suffix">
+            <summary>
+                Get or Set Suffix
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.ValueMargin">
+            <summary>
+                Get or Set ValueMargin
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.StringFormat">
+            <summary>
+                Get or Set StringFormat
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Drawing.MXBlock.Value">
+            <summary>
+                Get or Set Value
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Symbols.BrushSymbol">
+            <summary>
+                画刷状态
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Symbols.Symbol">
+            <summary>
+                多态符号基类
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.IsBlinkProperty">
+            <summary>
+                IsBlinkProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.MaximumProperty">
+            <summary>
+                MaximumProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.MinimumProperty">
+            <summary>
+                MinimumProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.MaxCompareProperty">
+            <summary>
+                MaxCompareProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.MinCompareProperty">
+            <summary>
+                MinCompareProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.Symbol.LogicProperty">
+            <summary>
+                LogicProperty
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Symbols.Symbol.IsInRange(System.Double)">
+            <summary>
+                判断给定数值是否属于当前配置范围
+            </summary>
+            <param name="value">待判断的数值</param>
+            <returns>如果指定数值符合当前状态，返回真值，否则返回假值。</returns>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.IsInDesign">
+            <summary>
+                Gets a value that indicates whether the element is running in the context of a designer.
+            </summary>
+            <returns>
+                true if the element is running in the context of a designer; otherwise, false.
+            </returns>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.Logic">
+            <summary>
+                获取或设置比较关系
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.IsBlink">
+            <summary>
+                获取或设置一个 bool 值，以指示该状态是否使用闪烁提示
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.Maximum">
+            <summary>
+                获取状态最大值
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.Minimum">
+            <summary>
+                获取状态最小值
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.MaxCompare">
+            <summary>
+                获取状态最小值比较符号
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.Symbol.MinCompare">
+            <summary>
+                获取状态最小值比较符号
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.BrushSymbol.StateProperty">
+            <summary>
+                StateProperty
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Symbols.BrushSymbol.State">
+            <summary>
+                获取或设置画刷值
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Symbols.BrushSymbolCollection">
+            <summary>
+                画刷状态集合
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Symbols.RightCompare">
+            <summary>
+                数值比较符，LT 或 LTE
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.RightCompare.LT">
+            <summary>
+                Less Than 小于/不大于
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.RightCompare.LTE">
+            <summary>
+                Less Than or Equal 小于等于/不大于
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Symbols.LeftCompare">
+            <summary>
+                数值比较符，GT 或 GTE
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.LeftCompare.GT">
+            <summary>
+                Great Than 大于/不小于
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Symbols.LeftCompare.GTE">
+            <summary>
+                Great Than or Equal 大于等于/不小于
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Scripts.ComBrushBehaviorProperty">
+            <summary>
+                受控属性
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehaviorProperty.Background">
+            <summary>
+                背景色
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehaviorProperty.Foreground">
+            <summary>
+                前景色
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehaviorProperty.BorderBrush">
+            <summary>
+            边框色
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Scripts.ComBrushBehavior">
+            <summary>
+                定义一个类型，用于元素画刷类属性控制，支持闪烁。
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Scripts.ScriptBehavior">
+            <summary>
+                定义一个类型，用于存储 C# 脚本片段以及元素受控属性，支持闪烁。
+            </summary>
+            <remarks>
+                脚本以及相关属性用途仅限于实现对元素属性控制，即完成动态。
+            </remarks>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ScriptBehavior.SnippetProperty">
+            <summary>
+                SnippetProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ScriptBehavior.AssociatedObjectProperty">
+            <summary>
+                AssociatedObjectProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ScriptBehavior.AssociatedPropertyProperty">
+            <summary>
+                AssociatedPropertyProperty
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Scripts.ScriptBehavior.Execute(System.Double)">
+            <summary>
+                运行脚本逻辑，并影响指定属性以及动画闪烁
+            </summary>
+            <param name="value">脚本片段结果数值</param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Scripts.ScriptBehavior.ChangeAssociatedValue(System.Object)">
+            <summary>
+                更改关联元素的属性值（方法 Execute 中调用）
+            </summary>
+            <param name="targetValue"></param>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Scripts.ScriptBehavior.ChangeAnimation(System.Boolean)">
+            <summary>
+                更改关联元素的动画状态（方法 Execute 中调用）
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ScriptBehavior.AssociatedObject">
+            <summary>
+                获取脚本所属关联的元素
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ScriptBehavior.AssociatedProperty">
+            <summary>
+                获取或设置脚本所关联元素的属性
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ScriptBehavior.Snippet">
+            <summary>
+                获取或设置脚本代码段
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehavior.BadStateProperty">
+            <summary>
+                BadStateProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehavior.SymbolsProperty">
+            <summary>
+                SymbolsProperty
+            </summary>
+        </member>
+        <member name="F:Unis.XamlConfiguration.Scripts.ComBrushBehavior.TargetProperty">
+            <summary>
+                TargetProperty
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Scripts.ComBrushBehavior.#ctor">
+            <summary>
+                创建 MutilBrushStateScript 实例。
+            </summary>
+        </member>
+        <member name="M:Unis.XamlConfiguration.Scripts.ComBrushBehavior.Execute(System.Double)">
+            <summary>
+                运行脚本逻辑，并影响指定属性以及动画闪烁
+            </summary>
+            <param name="value">脚本片段结果数值</param>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ComBrushBehavior.Target">
+            <summary>
+                Get or Set Target
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ComBrushBehavior.BadState">
+            <summary>
+                获取或设置 bad-state 时画刷，即测点无数据或测点未正确配置时显示的画刷
+            </summary>
+        </member>
+        <member name="P:Unis.XamlConfiguration.Scripts.ComBrushBehavior.Symbols">
+            <summary>
+                获取或设置画刷状态集合
+            </summary>
+        </member>
+        <member name="T:Unis.XamlConfiguration.Scripts.BehaviorCollection">
+            <summary>
+                动态行为集合
+            </summary>
+        </member>
+    </members>
+</doc>
