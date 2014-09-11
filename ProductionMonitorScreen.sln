@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionMonitorScreen", "ProductionMonitorScreen\ProductionMonitorScreen.csproj", "{2A04F147-F238-4A50-B063-2725FC3CAADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionMonitorScreen.Web", "ProductionMonitorScreen.Web\ProductionMonitorScreen.Web.csproj", "{87D4F9FA-9FC6-449C-AC5C-C5E6CD0B728C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_devlibs", "_devlibs", "{E67CFA0D-CDC9-4C21-917A-B87B73E4C54A}"
+	ProjectSection(SolutionItems) = preProject
+		_devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.dll = _devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.dll
+		_devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.extmap.xml = _devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.extmap.xml
+		_devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.xml = _devtools\lib\mvvmlight\SL5\GalaSoft.MvvmLight.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Controls.dll = _devtools\lib\expression\silverlight\Microsoft.Expression.Controls.dll
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Controls.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Controls.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.dll = _devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.dll
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.extmap.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.extmap.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Drawing.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Effects.dll = _devtools\lib\expression\silverlight\Microsoft.Expression.Effects.dll
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Effects.extmap.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Effects.extmap.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Effects.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Effects.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.dll = _devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.dll
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.extmap.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.extmap.xml
+		_devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.xml = _devtools\lib\expression\silverlight\Microsoft.Expression.Interactions.xml
+		_devtools\lib\expression\silverlight\System.Windows.Interactivity.dll = _devtools\lib\expression\silverlight\System.Windows.Interactivity.dll
+		_devtools\lib\expression\silverlight\System.Windows.Interactivity.extmap.xml = _devtools\lib\expression\silverlight\System.Windows.Interactivity.extmap.xml
+		_devtools\lib\expression\silverlight\System.Windows.Interactivity.xml = _devtools\lib\expression\silverlight\System.Windows.Interactivity.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Chart.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Data.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.DataVisualization.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.GridView.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Input.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.Navigation.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Controls.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Controls.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Data.dll = _devtools\lib\telerik\silverlight\Telerik.Windows.Data.dll
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Data.extmap.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Data.extmap.xml
+		_devtools\lib\telerik\silverlight\Telerik.Windows.Data.xml = _devtools\lib\telerik\silverlight\Telerik.Windows.Data.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.dll = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.dll
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.extmap.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.extmap.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.XML = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Analyze.XML
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.dll = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.dll
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.extmap.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.extmap.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.XML = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Drawing.XML
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.dll = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.dll
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.extmap.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.extmap.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Graphics.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.dll = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.dll
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.extmap.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.extmap.xml
+		_devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.xml = _devtools\lib\unis\silverlight\Unis.XamlConfiguration.Visualization.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A04F147-F238-4A50-B063-2725FC3CAADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04F147-F238-4A50-B063-2725FC3CAADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04F147-F238-4A50-B063-2725FC3CAADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04F147-F238-4A50-B063-2725FC3CAADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D4F9FA-9FC6-449C-AC5C-C5E6CD0B728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D4F9FA-9FC6-449C-AC5C-C5E6CD0B728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D4F9FA-9FC6-449C-AC5C-C5E6CD0B728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D4F9FA-9FC6-449C-AC5C-C5E6CD0B728C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

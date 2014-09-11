@@ -1,0 +1,130 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:XamlConfiguration="clr-namespace:Unis.XamlConfiguration;assembly=Unis.XamlConfiguration.Graphics" xmlns:uxc="http://schemas.metisria.com/2014/xaml/configuration"
+	mc:Ignorable="d"
+	x:Class="Unis.ProductionMonitorScreen.泵类" d:DesignWidth="1440" d:DesignHeight="900">
+
+	<Canvas x:Name="LayoutRoot">
+		<XamlConfiguration:GraphicSamples Canvas.Left="461" Canvas.Top="55" Width="979"/>
+		<Viewbox Height="91" Canvas.Left="19" Canvas.Top="9" Width="110">
+			<Grid Height="91" Width="110">
+				<uxc:部件107 Height="Auto" Margin="0,56,75,0" Width="Auto">
+					<uxc:部件107.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FF959595" Offset="0"/>
+							<GradientStop Color="#FF959595" Offset="1"/>
+							<GradientStop Color="#FFF3F3F3" Offset="0.615"/>
+						</LinearGradientBrush>
+					</uxc:部件107.Background>
+				</uxc:部件107>
+				<uxc:部件107 RenderTransformOrigin="0.5,0.5" Width="Auto" Height="Auto" Margin="56,56,19,0">
+					<uxc:部件107.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FF959595" Offset="0"/>
+							<GradientStop Color="#FF959595" Offset="1"/>
+							<GradientStop Color="#FFF3F3F3" Offset="0.615"/>
+						</LinearGradientBrush>
+					</uxc:部件107.Background>
+					<uxc:部件107.RenderTransform>
+						<CompositeTransform ScaleX="-1"/>
+					</uxc:部件107.RenderTransform>
+				</uxc:部件107>
+				<uxc:部件013 Height="Auto" Width="Auto" BorderBrush="{x:Null}" Margin="11,6,10,19">
+					<uxc:部件013.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FF636363" Offset="0"/>
+							<GradientStop Color="#FFEEEEEE" Offset="1"/>
+							<GradientStop Color="#FFB9B9B9" Offset="0.246"/>
+							<GradientStop Color="#FFA4A4A4" Offset="0.16"/>
+						</LinearGradientBrush>
+					</uxc:部件013.Background>
+				</uxc:部件013>
+				<uxc:部件002 Width="Auto" Height="Auto" Margin="19,11,42,25" BorderBrush="#FF17A0FF" Text="W">
+					<uxc:部件002.Behaviors>
+						<uxc:ComBrushBehavior Snippet="snap(&quot;AI00123X&quot;)">
+							<uxc:ComBrushBehavior.Symbols>
+								<uxc:BrushSymbol IsBlink="True" Logic="0&lt;$&lt;102" State="#FF00ECA1"/>
+								<uxc:BrushSymbol IsBlink="True" Logic="102.3&lt;$&lt;1334">
+									<uxc:BrushSymbol.State>
+										<RadialGradientBrush>
+											<GradientStop Color="#FFA4A4A4" Offset="0"/>
+											<GradientStop Color="#FFF70000" Offset="1"/>
+										</RadialGradientBrush>
+									</uxc:BrushSymbol.State>
+								</uxc:BrushSymbol>
+							</uxc:ComBrushBehavior.Symbols>
+						</uxc:ComBrushBehavior>
+					</uxc:部件002.Behaviors>
+				</uxc:部件002>
+				<uxc:部件401 Height="Auto" Width="Auto" BorderBrush="{x:Null}" Margin="100,0,0,51">
+					<uxc:部件401.Background>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FF646464" Offset="0"/>
+							<GradientStop Color="#FF8C8C8C" Offset="1"/>
+						</LinearGradientBrush>
+					</uxc:部件401.Background>
+				</uxc:部件401>
+			</Grid>
+		</Viewbox>
+			<Viewbox Canvas.Left="29" Canvas.Top="132">
+    		<Grid>
+    			<Path Data="M183.206,121.12 L183.206,112.977 L121.12,112.977 L120.102,118.066 L105.852,121.12 L105.852,128.244 L89.5674,128.244 L89.5674,136.387 L71.2473,137.405 L71.2473,144.529 L65.1403,144.529 L65.1403,150.636 L58.0156,151.654 L56.9981,143.511 L49.8739,144.529 L50.8915,156.743 L48.8559,164.885 L58.0161,158.779 L59.0339,168.957 L66.1585,172.01 L66.1585,182.188 L72.2654,182.188 L72.2654,188.295 L88.5503,188.295 L87.5324,196.438 L99.7461,196.438 L99.7461,206.616 L120.102,204.58 L120.102,214.758 L216.794,212.723 L215.776,205.598 L202.545,205.598 L202.545,196.438 L196.438,197.455 L196.438,188.295 L243.257,188.295 L242.239,194.402 L264.631,196.438 L267.684,186.26 L320.61,186.26 L320.61,178.117 L299.236,176.081 L306.36,170.992 L306.36,163.868 L330.788,163.868 L331.806,156.743 L359.286,157.761 L357.25,145.547 L305.342,146.565 L305.342,140.458 L311.449,139.44 L312.467,132.316 L303.306,133.333 L298.217,139.44 L260.559,140.458 L260.559,135.369 L267.683,133.333 L267.683,127.226 L251.399,127.226 L249.363,135.369 L203.562,135.369 L201.526,125.191 L210.686,125.191 L208.651,120.102 z" HorizontalAlignment="Left" Height="102.781" Margin="0,0.477,-0.433,-0.258" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="311.433">
+    				<Path.Stroke>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFFFC501" Offset="0"/>
+    						<GradientStop Color="#FFFDA305" Offset="1"/>
+    						<GradientStop Color="#FEFEC501" Offset="0.009"/>
+    					</LinearGradientBrush>
+    				</Path.Stroke>
+    				<Path.Fill>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFE69547" Offset="0"/>
+    						<GradientStop Color="#FFDC7B1D" Offset="1"/>
+    						<GradientStop Color="#FFFEC832" Offset="0.507"/>
+    					</LinearGradientBrush>
+    				</Path.Fill>
+    			</Path>
+    			<Path Data="M131.298,142.494 L138.422,144.529 L138.422,148.601 L152.672,151.654 L151.654,157.761 L145.547,160.814 L146.565,166.921 L158.779,165.903 L157.761,158.779 L167.939,158.779 L165.903,165.903 L172.01,166.921 L170.992,174.046 L140.458,175.064 L139.44,182.188 L133.333,182.188 L134.351,161.832 L138.422,158.779 L132.316,151.654 z" HorizontalAlignment="Left" Height="40.694" Margin="82.443,29.994,0,0" Stretch="Fill" Stroke="#FFFA8F27" UseLayoutRounding="False" VerticalAlignment="Top" Width="41.712" Fill="#FFFA8F27"/>
+    			<Path Data="M203.562,144.529 L204.58,180.153 L213.741,181.17 L214.759,186.26 C214.759,186.26 233.082,185.242 236.135,185.242 C239.189,185.242 241.225,175.064 241.225,175.064 L257.512,172.01 L260.566,164.885 L267.691,167.939 L267.691,182.188 L298.229,181.17 L297.211,174.046 L303.318,167.939 L305.354,160.814 L328.766,159.796 L333.856,155.725 L356.25,154.707 L354.214,149.618 L333.856,150.636 L308.408,152.672 L300.265,146.565 L263.62,145.547 L262.602,150.636 L253.44,151.654 L247.333,151.654 L236.136,152.672 L233.082,144.529 L229.01,157.761 L220.867,158.779 L218.831,150.636 L213.742,145.547 z" HorizontalAlignment="Left" Height="42.731" Margin="154.707,32.029,0,0" Stretch="Fill" Stroke="#FFFA8F27" UseLayoutRounding="False" VerticalAlignment="Top" Width="153.672">
+    				<Path.Fill>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFF79301" Offset="0"/>
+    						<GradientStop Color="#FFFF8B00" Offset="1"/>
+    						<GradientStop Color="#FFFFAA2F" Offset="0.523"/>
+    					</LinearGradientBrush>
+    				</Path.Fill>
+    			</Path>
+    			<Rectangle HorizontalAlignment="Left" Height="9" Margin="159,0,0,0" Stroke="#FFFEC832" VerticalAlignment="Top" Width="10">
+    				<Rectangle.Fill>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFE69547" Offset="0"/>
+    						<GradientStop Color="#FFDC7B1D" Offset="1"/>
+    						<GradientStop Color="#FFFEC832" Offset="0.507"/>
+    					</LinearGradientBrush>
+    				</Rectangle.Fill>
+    			</Rectangle>
+    			<Rectangle HorizontalAlignment="Left" Height="9" Margin="217,6,0,0" Stroke="#FFFEC832" VerticalAlignment="Top" Width="10">
+    				<Rectangle.Fill>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFE69547" Offset="0"/>
+    						<GradientStop Color="#FFDC7B1D" Offset="1"/>
+    						<GradientStop Color="#FFFEC832" Offset="0.507"/>
+    					</LinearGradientBrush>
+    				</Rectangle.Fill>
+    			</Rectangle>
+    			<Rectangle HorizontalAlignment="Left" Height="9" Margin="269,15,0,0" Stroke="#FFFEC832" VerticalAlignment="Top" Width="10">
+    				<Rectangle.Fill>
+    					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    						<GradientStop Color="#FFE69547" Offset="0"/>
+    						<GradientStop Color="#FFDC7B1D" Offset="1"/>
+    						<GradientStop Color="#FFFEC832" Offset="0.507"/>
+    					</LinearGradientBrush>
+    				</Rectangle.Fill>
+    			</Rectangle>
+    		</Grid>
+    	</Viewbox>
+	</Canvas>
+</UserControl>
