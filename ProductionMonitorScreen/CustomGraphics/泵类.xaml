@@ -9,9 +9,9 @@
 
 	<Canvas x:Name="LayoutRoot">
 		<XamlConfiguration:GraphicSamples Canvas.Left="461" Canvas.Top="55" Width="979"/>
-		<Viewbox Height="91" Canvas.Left="19" Canvas.Top="9" Width="110">
+		<Viewbox Height="91" Canvas.Left="40" Canvas.Top="17" Width="110">
 			<Grid Height="91" Width="110">
-				<uxc:部件107 Height="Auto" Margin="0,56,75,0" Width="Auto">
+				<uxc:部件107 Width="Auto" Height="Auto" Margin="0,56,75,0">
 					<uxc:部件107.Background>
 						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 							<GradientStop Color="#FF959595" Offset="0"/>
@@ -42,7 +42,7 @@
 						</LinearGradientBrush>
 					</uxc:部件013.Background>
 				</uxc:部件013>
-				<uxc:部件002 Width="Auto" Height="Auto" Margin="19,11,42,25" BorderBrush="#FF17A0FF" Text="W">
+				<uxc:部件002 Width="Auto" Height="Auto" BorderBrush="#FF17A0FF" Text="W" Margin="19,11,42,25">
 					<uxc:部件002.Behaviors>
 						<uxc:ComBrushBehavior Snippet="snap(&quot;AI00123X&quot;)">
 							<uxc:ComBrushBehavior.Symbols>

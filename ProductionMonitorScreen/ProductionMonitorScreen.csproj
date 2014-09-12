@@ -162,6 +162,9 @@
     <Compile Include="CustomGraphics\泵类.xaml.cs">
       <DependentUpon>泵类.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomGraphics\阀门类.xaml.cs">
+      <DependentUpon>阀门类.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -176,6 +179,10 @@
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
     <Page Include="CustomGraphics\泵类.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomGraphics\阀门类.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
